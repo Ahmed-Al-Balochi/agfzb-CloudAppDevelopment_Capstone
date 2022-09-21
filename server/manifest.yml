@@ -1,10 +1,10 @@
   applications:
-  - name: djangoapp
+  - name: b100n-bestcars
     routes:
       - route: a7mad98.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
-  - name: djangoapp-nginx
+  - name: b100n-bestcars-nginx
     routes:
       - route: a7mad98.mybluemix.net/static
     memory: 128M
